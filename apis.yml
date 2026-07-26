@@ -1,8 +1,16 @@
 aid: electric-hydrogen
 name: Electric Hydrogen
-description: 'Electric Hydrogen is a company surfaced as a portfolio company of fifth-wall and added to
-  the API Evangelist network as a stub for enrichment. Sector: climate. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Electric Hydrogen (EH2) is a Massachusetts-based clean-energy company that
+  designs, manufactures, and commissions the world''s most powerful PEM electrolyzers,
+  packaged into a fully-integrated 100MW HYPRPlant that turns water and renewable electricity
+  into the lowest-cost green hydrogen. The complete plant solution bundles power conversion,
+  gas processing, water treatment, and thermal management so heavy industry can decarbonize
+  ammonia, e-fuels, steel, and refining at gigawatt scale. Founded in 2020 and led by
+  CEO Raffi Garabedian, EH2 operates a 1.2GW gigafactory in Devens, Massachusetts, became
+  green hydrogen''s first unicorn with a $380M Series C, and is backed by Fifth Wall,
+  Fortescue, Energy Impact Partners, bp Ventures, Temasek, and Microsoft''s Climate
+  Innovation Fund. This profile enriches the API Evangelist network stub with the
+  company''s real public web surface.'
 url: https://raw.githubusercontent.com/api-evangelist/electric-hydrogen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,30 @@ x-backed-by:
 - fifth-wall
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://eh2.com/wp-content/uploads/2024/12/ehydrogen-logo.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Climate
+- Clean Energy
+- Green Hydrogen
+- Electrolyzers
+- Decarbonization
+- Manufacturing
+- Energy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/electric-hydrogen-domain-security.yml
 - type: Website
   url: https://eh2.com/
+- type: About
+  url: https://eh2.com/company/
+- type: Blog
+  url: https://eh2.com/news/
+- type: Careers
+  url: https://eh2.com/join-the-team/
+- type: PrivacyPolicy
+  url: https://eh2.com/privacy-policy/
+- type: TermsOfService
+  url: https://eh2.com/terms-conditions/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/electric-h2/
+- type: LLMsTxt
+  url: llms/electric-hydrogen-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
